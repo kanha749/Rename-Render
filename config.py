@@ -7,21 +7,21 @@ import re, os
 
 id_pattern = re.compile(r'^.\d+$') 
 
-API_ID = os.environ.get("API_ID", "21302239")
+API_ID = os.environ.get("API_ID", "")
 
-API_HASH = os.environ.get("API_HASH", "1560930c983fbca6a1fcc8eab760d40d")
+API_HASH = os.environ.get("API_HASH", "")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8257399725:AAG278Z_ndrdWgxTQuu7DQugXaoCdf1xW0M") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
-FORCE_SUB = os.environ.get("FORCE_SUB", "https://t.me/+Tbkw7GQzcB05M2U9") 
+FORCE_SUB = os.environ.get("FORCE_SUB", "") 
 
              # Don't Remove Credit @VJ_Botz
              # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
              # Ask Doubt on telegram @KingVJ01
 
-DB_NAME = os.environ.get("DB_NAME", "kanha")     
+DB_NAME = os.environ.get("DB_NAME", ")     
 
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://kanha:kanh4321@kanha.hnytqah.mongodb.net/?retryWrites=true&w=majority&appName=Kanha")
+DB_URL = os.environ.get("DB_URL", "")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
