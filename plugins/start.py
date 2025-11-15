@@ -22,15 +22,15 @@ async def start(client, message):
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton(" Developer ", url='https://t.me/anjel_neha')
         ],[
-        InlineKeyboardButton(' Updates', url='https://t.me/+Tbkw7GQzcB05M2U9'),
-        InlineKeyboardButton(' Support', url='https://t.me/+IHN_wo9h9-1jODU1')
+        InlineKeyboardButton(' Updates', url=''),
+        InlineKeyboardButton(' Support', url='')
         ],[
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
-        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/+bNe7wx-UpDsyZWQ9')
+        InlineKeyboardButton(" Join Our Movie Channel !", url='')
         ],[
-        InlineKeyboardButton("❤️ Subscribe request group ❤️", url='https://t.me/Tiger_movie_request_group')
+        InlineKeyboardButton("❤️ Subscribe request group ❤️", url='')
         ]
         ])
     if START_PIC:
